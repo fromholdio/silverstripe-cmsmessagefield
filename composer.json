@@ -1,0 +1,25 @@
+{
+  "name": "fromholdio/silverstripe-cmsmessagefield",
+  "type": "silverstripe-vendormodule",
+  "description": "Very simple form field wrapping literal field to add message into CMS UI",
+  "license": "BSD-3-Clause",
+  "keywords": ["silverstripe"],
+  "homepage": "https://github.com/fromholdio/silverstripe-cmsmessagefield",
+  "support": {
+    "issues": "https://github.com/fromholdio/silverstripe-cmsmessagefield/issues"
+  },
+  "authors": [{
+    "name": "Luke Fromhold",
+    "homepage": "https://fromhold.io"
+  }],
+  "require": {
+    "silverstripe/framework": "~4.1 || ~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fromholdio\\CMSMessageField\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
